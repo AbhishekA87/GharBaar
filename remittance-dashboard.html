@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Remittance Dashboard | NRI Bridge</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f6f8; }
+    .header { background-color: #002244; color: white; padding: 30px; text-align: center; }
+    .section { padding: 40px 20px; }
+    .card { border: none; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
+    .chatbot-icon {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #007bff;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      cursor: pointer;
+    }
+    .plan-card {
+      background: white;
+      border: 1px solid #ccc;
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .plan-card h4 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    .plan-card ul {
+      list-style: none;
+      padding: 0;
+    }
+    .plan-card ul li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Remittance Dashboard</h1>
+    <p>Track, Forecast & Optimize Every Dollar Sent to India</p>
+  </div>
+
+  <div class="container section">
+    <h2 class="mb-4">📊 Live Dashboard Preview</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card p-3">
+          <h5>FX Rate Trend</h5>
+          <img src="https://dummyimage.com/400x200/ccc/000.png&text=FX+Prediction+Graph" alt="FX graph" class="img-fluid" />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card p-3">
+          <h5>Transfer Categories</h5>
+          <img src="https://dummyimage.com/400x200/ddd/000.png&text=Rent+vs+Medical+vs+Bills" alt="Transfer pie chart" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+    <div class="card mt-4 p-3">
+      <h5>Monthly Summary</h5>
+      <p>Total Sent: ₹95,000 | Rent: ₹30k | Medical: ₹20k | Misc: ₹45k</p>
+    </div>
+  </div>
+
+  <div class="container section">
+    <h2 class="mb-4">💳 Pricing Plans</h2>
+    <div class="row text-center g-4">
+      <div class="col-md-4">
+        <div class="plan-card">
+          <h4>Basic - $10/mo</h4>
+          <ul>
+            <li>Multi-currency Transfer Tracker</li>
+            <li>Live FX Rates</li>
+            <li>Monthly Budget Tool</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="plan-card">
+          <h4>Pro - $25/mo</h4>
+          <ul>
+            <li>All Basic Features</li>
+            <li>AI-based FX Prediction</li>
+            <li>Auto Categorization of Expenses</li>
+            <li>Usage Breakdown Reports</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="plan-card">
+          <h4>Elite - $49/mo</h4>
+          <ul>
+            <li>All Pro Features</li>
+            <li>Smart Send Recommendations</li>
+            <li>Cross-Module Integrations</li>
+            <li>Audit & Compliance Reporting</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <button class="btn btn-primary">Subscribe Now</button>
+      <p class="text-muted mt-2">* Save 20% on annual billing</p>
+    </div>
+  </div>
+
+  <div class="chatbot-icon" title="Chat with us!">💬</div>
+
+</body>
+</html>
